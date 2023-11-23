@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Skills Development Centre</title>
+        <link rel="stylesheet" href="css/style.css">
+        <script src="./js/main.js"></script>
+    </head>
+
+    <body class="min-h-screen bg-slate-50">
+        <header class="sticky top-0 z-20 text-black backdrop-blur-3xl bg-opacity-90 mx-auto bg-white ">
+            <section
+                class="flex justify-between md:justify-evenly items-center mx-auto max-w-[96vw] md:max-w-[80vw] p-4">
+                <div id='hero' class="justify-center items-center gap-3 flex">
+                    <a href="#hero"><img class="w-[81px] h-[51px]" src="./img/logo.png" /></a>
+                    <div class="w-[155px] text-red-700 text-base font-bold font-['Raleway'] leading-tight hide sm:flex">
+                        Skills
+                        Development Centre</div>
+                </div>
+                <div class="justify-between items-center gap-4 hide sm:flex">
+                    <div class="text-gray-900 text-base font-normal font-['Inter'] leading-none"><a
+                            href="#hero">Home</a></div>
+                    <div class="text-gray-500 text-base font-normal font-['Inter'] leading-none"><a href="#form">Contact
+                            Us</a></div>
+                    <div class="text-gray-500 text-base font-normal font-['Inter'] leading-none"><a
+                            href="#courses">Courses</a></div>
+                </div>
+
+                <div class="justify-end items-center hide md:flex">
+                    <button class="px-6 py-2 bg-red-500 rounded-md justify-center items-center flex hover:opacity-70 cursor-pointer">
+                        <a class="text-center text-white text-base font-medium font-['Raleway'] leading-normal"
+                            href="#form">
+                            Enroll Now</a>
+                    </button>
+                </div>
+
+                <div>
+                    <button id="hamburger-button" class="relative h-8 w-8 cursor-pointer text-3xl sm:hidden">
+                        <!-- &#9776; -->
+                        <div
+                            class="absolute top-4 -mt-0.5 h-1 w-8 rounded bg-gray-900 transition-all duration-500 before:absolute before:h-1 before:w-8 before:-translate-x-4 before:-translate-y-3 before:rounded before:bg-gray-900 before:transition-all before:duration-500 before:content-[''] after:absolute after:h-1 after:w-8 after:-translate-x-4 after:translate-y-3 after:rounded after:bg-gray-900 after:transition-all after:duration-500 after:content-['']">
+                        </div>
+                    </button>
+                </div>
+            </section>
+            <section id="mobile-menu"
+                class="top-68 justify-center absolute hidden w-full origin-top animate-open-menu flex-col text-5xl">
+                <!-- <button class="text-8xl self-end px-6">
+                        &times;
+                    </button> -->
+                <nav class="flex min-h-screen flex-col items-center py-8 bg-black" aria-label="mobile">
+                    <a href="#hero" class="w-full py-6 text-center hover:opacity-70 text-gray-300">Home</a>
+                    <a href="#form" class="w-full py-6 text-center hover:opacity-90 text-gray-300">Contact Us</a>
+                    <a href="#courses" class="w-full py-6 text-center hover:opacity-90 text-gray-300">Courses</a>
+                </nav>
+            </section>
+        </header>
+
+
+        <section class="min-h-screen md:h-[90vh] min-w-full flex">
+            <div class="bg-cover bg-center bg-no-repeat mx-auto min-w-full flex justify-center items-center min-h-screen sm:h-[80vh] overlay"
+                style="background-image: url('./img/hero.png')">
+                <div class="h-full flex z-10">
+                    <div class="max-w-[96vw] md:max-w-[80vw] flex-col items-center gap-[33px] flex justify-center">
+                        <div
+                            class="text-center text-white text-5xl sm:text-6xl md:text-7xl font-bold font-['Inter']leading-extra-loose">
+                            Don’t just
+                            learn.<br />Master.</div>
+                        <div
+                            class="text-center text-white text-base font-normal font-['Montserrat'] leading-normal w-2/3">
+                            Skills Development Centre is your launchpad into the world of Fashion & Design and ICT,
+                            shaping
+                            creativity and expertise through tailored courses and innovative learning.</div>
+                        <button
+                            class="px-6 py-4 bg-red-600 rounded-md justify-center items-center gap-2.5 inline-flex hover:opacity-70">
+                            <a class="text-center text-white text-base font-medium font-['Inter'] leading-normal"
+                                href="#form">
+                                Become a
+                                Master</a>
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="flex justify-between items-center mx-auto p-4 max-w-[96vw] md:max-w-[80vw] pb-10 mt-16">
+            <div class="flex mx-auto max-w-[96vw] md:max-w-[80vw] flex-col md:flex-row gap-8 justify-start h-full">
+                <div class="gap-4 flex flex-1 items-start justify-center flex-col mr-8">
+                    <div class="text-zinc-800 text-4xl sm:text-5xl font-bold font-['Inter'] text-center sm:text-left">
+                        Skills
+                        Redefined, Success Rewritten</div>
+                    <div class="text-zinc-800 text-base font-normal font-['Montserrat'] leading-normal">
+                        At the Skills Development Centre, we are more than an educational institution; we are a
+                        catalyst
+                        for
+                        personal and professional transformation. Founded on the principles of innovation and
+                        excellence,
+                        our centre is dedicated to empowering individuals in the fields of Fashion, Design, and
+                        Information
+                        & Communication Technology (ICT). With a commitment to delivering top-tier education, our
+                        tailored
+                        courses are meticulously crafted to foster creativity, expertise, and real-world skills. Our
+                        experienced instructors bring a wealth of industry knowledge, ensuring that our learners not
+                        only
+                        gain theoretical understanding but also practical insights to thrive in dynamic landscapes.
+                        At
+                        the
+                        Skills Development Centre, we believe in unlocking the full potential of every individual,
+                        propelling them towards success in their chosen fields. Join us on this journey of mastery,
+                        innovation, and achievement.</div>
+                    <button
+                        class="border border-red-500 rounded-md justify-center bg-red-50 items-center inline-flex hover:bg-red-500">
+                        <a class=" px-6 py-4 text-center text-gray-900 hover:text-white text-base font-medium font-['Inter'] leading-normal"
+                            href="#form">
+                            Learn More</a>
+                    </button>
+                </div>
+                <div class="flex-1">
+                    <img class="w-full h-full object-cover rounded-[32px]" src="./img/hero.png" />
+                </div>
+            </div>
+        </section>
+
+        <section id="courses"
+            class="flex justify-between items-center mx-auto p-4 max-w-[96vw] md:max-w-[80vw] mt-4 mb-4 md:mt-16 md:mb-16 flex-col">
+            <div class="flex-col justify-start items-center gap-4 flex">
+                <div class="text-center text-zinc-800 text-4xl sm:text-6xl font-bold font-['Inter']">Available
+                    Courses</div>
+                <div
+                    class="text-center text-zinc-800 text-xl font-normal font-['Raleway'] leading-normal mb-10 sm:mb-16">
+                    Explore transformative courses in Fashion, Design, and ICT at the Skills Development Centre.
+                    Elevate
+                    your skills for a future of innovation and success.</div>
+            </div>
+
+            <!-- Fashion and Design -->
+            <div id="fashion"
+                class="flex mx-auto max-w-[96vw] md:max-w-[80vw] flex-col md:flex-row justify-start h-full mb-8 ">
+                <div class="flex-1">
+                    <img class="w-full h-full object-cover rounded-[32px]" src="./img/hero.png" />
+                </div>
+                <div class="flex-col justify-center items-start flex flex-1 sm:ml-8 sm:pt-8 sm:pb-8">
+                    <div class="text-indigo-800 text-xl sm:text-2xl font-bold font-['Inter'] mt-8 mb-2">Fashion and
+                        Design</div>
+                    <div class="h-full flex-col justify-start items-start flex">
+                        <div class="text-zinc-800 text-3xl sm:text-4xl font-bold font-['Inter'] mb-4 leading-tight">
+                            Design mastery
+                            in
+                            tailored fashion</div>
+                        <ul class="flex-col justify-start items-start flex">
+                            <li class="justify-start items-start flex">
+                                <p class="mr-2 font-normal text-2xl"><box-icon name="check"></box-icon></p>
+                                <p class="text-zinc-800 text-2xl font-normal font-['Montserrat'] leading-normal">
+                                    Master intricate pattern creation</p>
+                            </li>
+                            <li class="justify-start items-start flex">
+                                <div class="mr-2 font-normal text-2xl"><box-icon name="check"></box-icon></div>
+                                <div class="text-zinc-800 text-2xl font-normal font-['Montserrat'] leading-normal">
+                                    Select and work with fabrics</div>
+                            </li>
+                            <li class="justify-start items-start flex">
+                                <div class="mr-2 font-normal text-2xl"><box-icon name="check"></box-icon></div>
+                                <div class="text-zinc-800 text-2xl font-normal font-['Montserrat'] leading-normal">
+                                    Acquire hands-on sewing skills.</div>
+                            </li>
+                        </ul>
+                        <div class="justify-start items-start flex mt-6">
+                            <button
+                                class="border border-red-500 rounded-md justify-center bg-red-50 items-center inline-flex hover:bg-red-500">
+                                <a class=" px-6 py-4 text-center text-gray-900 hover:text-white text-base font-medium font-['Inter'] leading-normal"
+                                    href="#form">
+                                    Enroll Now</a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Computer Basics -->
+            <div id="computer_basics"
+                class="flex mx-auto max-w-[96vw] md:max-w-[80vw] flex-col justify-start h-full mt-4 mb-4 md:mt-16 md:mb-16 md:flex-row-reverse">
+                <div class="flex-1">
+                    <img class="w-full h-full object-cover rounded-[32px]" src="./img/hero.png" />
+                </div>
+                <div class="flex-col justify-center items-start flex flex-1 sm:ml-8 sm:pt-8 sm:pb-8">
+                    <div class="text-indigo-800 text-xl sm:text-2xl font-bold font-['Inter'] mt-8 mb-2">Computer
+                        Basics
+                    </div>
+                    <div class="h-full flex-col justify-start items-start flex">
+                        <div class="text-zinc-800 text-3xl sm:text-4xl  font-bold font-['Inter'] mb-4 leading-tight">
+                            Master the essentials of computer literacy.</div>
+                        <ul class="flex-col justify-start items-start flex">
+                            <li class="justify-start items-start flex">
+                                <p class="mr-2 font-normal text-2xl"><box-icon name="check"></box-icon></p>
+                                <p class="text-zinc-800 text-2xl font-normal font-['Montserrat'] leading-normal">
+                                    Understand core hardware components.</p>
+                            </li>
+                            <li class="justify-start items-start flex">
+                                <div class="mr-2 font-normal text-2xl"><box-icon name="check"></box-icon></div>
+                                <div class="text-zinc-800 text-2xl font-normal font-['Montserrat'] leading-normal">
+                                    Navigate common software applications.</div>
+                            </li>
+                            <li class="justify-start items-start flex">
+                                <div class="mr-2 font-normal text-2xl"><box-icon name="check"></box-icon></div>
+                                <div class="text-zinc-800 text-2xl font-normal font-['Montserrat'] leading-normal">
+                                    Develop basic troubleshooting skills.</div>
+                            </li>
+                        </ul>
+                        <div class="justify-start items-start flex mt-6">
+                            <button
+                                class="border border-red-500 rounded-md justify-center bg-red-50 items-center inline-flex hover:bg-red-500">
+                                <a class=" px-6 py-4 text-center text-gray-900 hover:text-white text-base font-medium font-['Inter'] leading-normal"
+                                    href="#form">
+                                    Enroll Now</a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Digital Marketing -->
+
+            <div id="digital_marketing"
+                class="flex mx-auto max-w-[96vw] md:max-w-[80vw] flex-col md:flex-row justify-start h-full mt-4 mb-4 md:mt-16 md:mb-16">
+                <div class="flex-1">
+                    <img class="w-full h-full object-cover rounded-[32px]" src="./img/hero.png" />
+                </div>
+                <div class="flex-col justify-center items-start flex flex-1 sm:ml-8 sm:pt-8 sm:pb-8">
+                    <div class="text-indigo-800 text-xl sm:text-2xl font-bold font-['Inter'] mt-8 mb-2">Digital
+                        Marketing</div>
+                    <div class="h-full flex-col justify-start items-start flex">
+                        <div class="text-zinc-800 text-3xl sm:text-4xl font-bold font-['Inter'] mb-4 leading-tight">
+                            Elevate brands through strategic online promotions</div>
+                        <ul class="flex-col justify-start items-start flex">
+                            <li class="justify-start items-start flex">
+                                <p class="mr-2 font-normal text-2xl"><box-icon name="check"></box-icon></p>
+                                <p class="text-zinc-800 text-2xl font-normal font-['Montserrat'] leading-normal">
+                                    Strategize brand promotion on social media</p>
+                            </li>
+                            <li class="justify-start items-start flex">
+                                <div class="mr-2 font-normal text-2xl"><box-icon name="check"></box-icon></div>
+                                <div class="text-zinc-800 text-2xl font-normal font-['Montserrat'] leading-normal">
+                                    Explore online advertising methods</div>
+                            </li>
+                            <li class="justify-start items-start flex">
+                                <div class="mr-2 font-normal text-2xl"><box-icon name="check"></box-icon></div>
+                                <div class="text-zinc-800 text-2xl font-normal font-['Montserrat'] leading-normal">
+                                    Leverage data analytics in marketing</div>
+                            </li>
+                        </ul>
+                        <div class="justify-start items-start flex mt-6">
+                            <button
+                                class="border border-red-500 rounded-md justify-center bg-red-50 items-center inline-flex hover:bg-red-500">
+                                <a class=" px-6 py-4 text-center text-gray-900 hover:text-white text-base font-medium font-['Inter'] leading-normal"
+                                    href="#form">
+                                    Enroll Now</a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Data Analytics -->
+
+            <div id="data_analytics"
+                class="flex mx-auto max-w-[96vw] md:max-w-[80vw] flex-col md:flex-row-reverse justify-start h-full mt-4 mb-4 md:mt-16 md:mb-16">
+                <div class="flex-1">
+                    <img class="w-full h-full object-cover rounded-[32px]" src="./img/hero.png" />
+                </div>
+                <div class="flex-col justify-center items-start flex flex-1 sm:ml-8 sm:pt-8 sm:pb-8">
+                    <div class="text-indigo-800 text-xl sm:text-2xl font-bold font-['Inter'] mt-8 mb-2">Data
+                        Analytics
+                    </div>
+                    <div class="h-full flex-col justify-start items-start flex">
+                        <div class="text-zinc-800 text-3xl sm:text-4xl font-bold font-['Inter'] mb-4 leading-tight">
+                            Analyze data for informed decision-making</div>
+                        <ul class="flex-col justify-start items-start flex">
+                            <li class="justify-start items-start flex">
+                                <p class="mr-2 font-normal text-2xl"><box-icon name="check"></box-icon></p>
+                                <p class="text-zinc-800 text-2xl font-normal font-['Montserrat'] leading-normal">
+                                    Master statistical data interpretation</p>
+                            </li>
+                            <li class="justify-start items-start flex">
+                                <div class="mr-2 font-normal text-2xl"><box-icon name="check"></box-icon></div>
+                                <div class="text-zinc-800 text-2xl font-normal font-['Montserrat'] leading-normal">
+                                    Visualize data using charts and graphs</div>
+                            </li>
+                            <li class="justify-start items-start flex">
+                                <div class="mr-2 font-normal text-2xl"><box-icon name="check"></box-icon></div>
+                                <div class="text-zinc-800 text-2xl font-normal font-['Montserrat'] leading-normal">
+                                    Clean and process raw data</div>
+                            </li>
+                        </ul>
+                        <div class="justify-start items-start flex mt-6">
+                            <button
+                                class="border border-red-500 rounded-md justify-center bg-red-50 items-center inline-flex hover:bg-red-500">
+                                <a class=" px-6 py-4 text-center text-gray-900 hover:text-white text-base font-medium font-['Inter'] leading-normal"
+                                    href="#form">
+                                    Enroll Now</a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Web Development -->
+            <div id="web_development"
+                class="flex mx-auto max-w-[96vw] md:max-w-[80vw] flex-col md:flex-row justify-start h-full mt-4 mb-4 md:mt-16 md:mb-16">
+                <div class="flex-1">
+                    <img class="w-full h-full object-cover rounded-[32px]" src="./img/hero.png" />
+                </div>
+                <div class="flex-col justify-center items-start flex flex-1 sm:ml-8 sm:pt-8 sm:pb-8">
+                    <div class="text-indigo-800 text-xl sm:text-2xl font-bold font-['Inter'] mt-8 mb-2">Web
+                        Development
+                    </div>
+                    <div class="h-full flex-col justify-start items-start flex">
+                        <div class="text-zinc-800 text-3xl sm:text-4xl font-bold font-['Inter'] mb-4 leading-tight">
+                            Bring web development aspirations to life</div>
+                        <ul class="flex-col justify-start items-start flex">
+                            <li class="justify-start items-start flex">
+                                <p class="mr-2 font-normal text-2xl"><box-icon name="check"></box-icon></p>
+                                <p class="text-zinc-800 text-2xl font-normal font-['Montserrat'] leading-normal">
+                                    Master HTML, CSS, JavaScript</p>
+                            </li>
+                            <li class="justify-start items-start flex">
+                                <div class="mr-2 font-normal text-2xl"><box-icon name="check"></box-icon></div>
+                                <div class="text-zinc-800 text-2xl font-normal font-['Montserrat'] leading-normal">
+                                    Learn responsive design techniques</div>
+                            </li>
+                            <li class="justify-start items-start flex">
+                                <div class="mr-2 font-normal text-2xl"><box-icon name="check"></box-icon></div>
+                                <div class="text-zinc-800 text-2xl font-normal font-['Montserrat'] leading-normal">
+                                    Develop interactive web applications</div>
+                            </li>
+                        </ul>
+                        <div class="justify-start items-start flex mt-6">
+                            <button
+                                class="border border-red-500 rounded-md justify-center bg-red-50 items-center inline-flex hover:bg-red-500">
+                                <a class=" px-6 py-4 text-center text-gray-900 hover:text-white text-base font-medium font-['Inter'] leading-normal"
+                                    href="#form">
+                                    Enroll Now</a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Us -->
+        <section class="min-w-full bg-indigo-700 flex-col justify-center items-center flex" id="form">
+            <div
+                class="flex justify-between items-center mx-auto p-4 min-w-[96vw] md:min-w-[80vw] pb-10 mt-16 flex-col sm:flex-row">
+                <div class="flex flex-col items-center md:items-start">
+                    <p class="text-center md:text-clip text-white text-xl font-medium font-['Montserrat']">We’d Love
+                        to
+                        Hear From
+                        You
+                    </p>
+                    <h3 class="text-center text-white text-4xl font-bold font-['Inter'] leading-normal">Join the
+                        Journey
+                    </h3>
+
+                    <address class="w-full mt-6 items-center justify-center">
+                        <div class="flex items-start justify-start mb-4">
+                            <div class="flex items-center justify-center "><box-icon color="white" size="sm"
+                                    class="mr-2 sm:mr-4" name="map" type="solid"></box-icon></div>
+                            <p class="text-white text-base">km 9 East-West Road (New Road Bus Stop)
+                                Opposite
+                                ADAMAC Rumuodara, Port Harcourt.</p>
+                        </div>
+                        <div class="flex items-start justify-start mb-4">
+                            <div class="flex items-center justify-center">
+                                <box-icon color="white" size="sm" class="mr-2 sm:mr-4" name="phone"
+                                    type="solid"></box-icon>
+                            </div>
+                            <p class="text-white text-base "><a href=" tel:+2347047000442">
+                                    +2347047000442</a></p>
+                        </div>
+
+                        <div class="flex items-start justify-start mt-2 mb-2">
+                            <div class="flex items-center justify-center">
+                                <box-icon color="white" size="sm" class="mr-2 sm:mr-4" name="envelope"
+                                    type="solid"></box-icon>
+                            </div>
+                            <p class="text-white text-base "><a href=" mailto:skillsdevcentre@gmail.com">
+                                    skillsdevcentre@gmail.com</a></p>
+                        </div>
+                    </address>
+                </div>
+                <!-- Form -->
+
+                <form action="https://formspree.io/f/maygzrpl" method="post" class="w-full mx-auto p-8 my-4">
+                    <label for="name" class="block text-sm font-bold mb-2 text-white">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Enter name here"
+                        class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-blue-500"
+                        required>
+
+                    <label for="email" class="block mt-4 text-sm font-bold mb-2 text-white">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Enter email here"
+                        class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-blue-500"
+                        required>
+
+                    <label for="phone" class="block mt-4 text-sm font-bold mb-2 text-white">Phone
+                        Number:</label>
+                    <input type="tel" id="phone" name="phone" placeholder="Enter phone number here"
+                        class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-blue-500"
+                        required>
+
+                    <label for="description" class="block mt-4 text-sm font-bold mb-2 text-white">Description:</label>
+                    <textarea id="description" name="description" placeholder="Enter your description (max 250 words)"
+                        class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-blue-500"
+                        maxlength="250" required></textarea>
+
+                    <button type="submit"
+                        class="mt-6  hover:bg-red-500 text-white font-bold py-2 px-4 rounded-md focus:outline-none focus:shadow-outline-white active:bg-red-800 border border-white">Submit</button>
+                </form>
+                <!-- End Form -->
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="min-w-full flex flex-col justify-center items-center mt-10 mb-10 gap-4 h-[90vh] md:mt-0 md:mb-0">
+            <div
+                class="flex justify-between items-center mx-auto p-4 min-w-[96vw] md:min-w-[80vw] pb-10 mt-16 flex-col sm:flex-row">
+                <div class="flex flex-col items-center md:items-start flex-1">
+                    <h3 class="text-center text-gray-900 text-2xl font-bold font-['Inter'] leading-normal">Contact
+                        Us
+                    </h3>
+
+                    <address class="w-full mt-6 items-center justify-center">
+                        <div class="flex items-start justify-start mb-4">
+                            <div class="flex items-center justify-center "><box-icon color="text-gray-900" size="sm"
+                                    class="mr-2 sm:mr-4" name="map" type="solid"></box-icon></div>
+                            <p class="text-gray-900 text-base">km 9 East-West Road (New Road Bus Stop)
+                                Opposite
+                                ADAMAC Rumuodara, Port Harcourt.</p>
+                        </div>
+                        <div class="flex items-start justify-start mb-4">
+                            <div class="flex items-center justify-center">
+                                <box-icon color="text-gray-900" size="sm" class="mr-2 sm:mr-4" name="phone"
+                                    type="solid"></box-icon>
+                            </div>
+                            <p class="text-gray-900 t text-base "><a href=" tel:+2347047000442">
+                                    +2347047000442</a></p>
+                        </div>
+
+                        <div class="flex items-start justify-start mt-2 mb-2">
+                            <div class="flex items-center justify-center">
+                                <box-icon color="text-gray-900" size="sm" class="mr-2 sm:mr-4" name="envelope"
+                                    type="solid"></box-icon>
+                            </div>
+                            <p class="text-gray-900 text-base "><a href=" mailto:skillsdevcentre@gmail.com">
+                                    skillsdevcentre@gmail.com</a></p>
+                        </div>
+                    </address>
+                </div>
+
+                <!-- Available Courses -->
+                <div class="flex flex-col flex-1 justify-center items-center pt-8">
+                    <p class="text-2xl font-semibold mb-6">Available Courses</p>
+                    <ul class="flex flex-col gap-2">
+                        <li class="mb-2"><a class="text-gray-700  hover:underline" href="#fashion">Fashion and
+                                Design</a></li>
+                        <li class="mb-2"><a class="text-gray-700  hover:underline" href="#computer_basics">Computer
+                                Basics</a></li>
+                        <li class="mb-2"><a class="text-gray-700  hover:underline" href="#digital_marketing">Digital
+                                Marketing</a></li>
+                        <li class="mb-2"><a class="text-gray-700  hover:underline" href="#data_analytics">Data
+                                Analytics</a></li>
+                        <li class="mb-2"><a class="text-gray-700  hover:underline" href="#web_development">Web
+                                Development</a></li>
+                    </ul>
+                </div>
+
+                <!-- Links -->
+                <!-- Available Courses -->
+                <div class="flex flex-col flex-shrink justify-center items-center pt-8">
+                    <ul>
+                        <li><a href="https://www.twitter.com/SkillsDevCentre" target="_blank"><box-icon type='logo'
+                                    color="text-gray-700" name='twitter'></box-icon></a></li>
+                        <li><a href="https://www.linkedin.com/in/skills-development-centre" target="_blank"
+                                class="text-gray-700"><box-icon type='logo' color="text-gray-700"
+                                    name='linkedin'></box-icon></a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="flex items-center justify-center flex-col w-full">
+                <div class="w-full h-[2px] bg-gray-900"></div>
+                <p class="text-gray-900 text-center pt-4 pb-8">Copyright @ Skills Development Centre 2023</p>
+
+            </div>
+        </footer>
+
+
+
+        <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                const smoothScrollLinks = document.querySelectorAll('a[href^="#"]');
+
+                smoothScrollLinks.forEach(link => {
+                    link.addEventListener('click', smoothScroll);
+                });
+
+                function smoothScroll(e) {
+                    e.preventDefault();
+
+                    const targetId = this.getAttribute('href').substring(1);
+                    const targetElement = document.getElementById(targetId);
+
+                    if (targetElement) {
+                        window.scrollTo({
+                            top: targetElement.offsetTop,
+                            behavior: 'smooth'
+                        });
+                    }
+                }
+            });
+
+        </script>
+    </body>
+
+</html>
